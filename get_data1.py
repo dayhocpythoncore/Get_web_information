@@ -10,6 +10,7 @@ page_html = uClient.read()
 uClient.close()
 page_soup = soup(page_html, "html.parser")
 #This my toan.tran source
+#my source code 2
 number_element = page_soup.findAll("span", {"class": "_10Ermr"})
 for val in number_element:
     list_data = str(val).split(' ')
