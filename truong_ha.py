@@ -11,6 +11,6 @@ for i in range(2, MAX_PRIME):
 
     print(i)
 
-      for j in range(i * i, MAX_PRIME, i):
+    for j in range(i * i, MAX_PRIME, i):
 
         sieve[j] = False
